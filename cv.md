@@ -16,24 +16,22 @@ Discord: Bertrana#5845
 Telegram: @bertrana
 
 ## LANGUAGES
-  ★★★★★ Russian
-  
-  ★★★☆☆ English
-  
-  ★☆☆☆☆ Spanish; Castilian
+| Level | Language |
+|---|---|
+| ★★★★★ | Russian |
+| ★★★☆☆ | English |
+| ★☆☆☆☆ | Spanish; Castilian |
 
 ## SKILLS
-  ★★★☆☆ HTML/CSS
-  
-  ★★★☆☆ JavaScript
-  
-  ★★☆☆☆ React
-  
-  ★★☆☆☆ Git
-  
-  ★☆☆☆☆ TypeScript
-  
-  ★☆☆☆☆ Gulp
+
+| Level | Language |
+|---|---|
+| ★★★☆☆ | HTML/CSS |
+| ★★★☆☆ | JavaScript |
+| ★★☆☆☆ | React |
+| ★★☆☆☆ | Git |
+| ★☆☆☆☆ | TypeScript |
+| ★☆☆☆☆ | Gulp |
 
 ## WORK EXPERIENCE
 * October 2020 – October 2021
