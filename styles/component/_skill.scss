@@ -1,0 +1,33 @@
+.skill {
+  position: relative;
+
+  padding-left: 160px;
+
+  &::before {
+    content: "";
+
+    width: 140px;
+    height: 28px;
+
+    position: absolute;
+    top: -4px;
+    left: 10px;
+
+    background-color: transparent;
+    background-image: url("./assets/stars_5.png");
+    background-size: 140px 28px;
+    background-repeat: no-repeat;
+  }
+
+  &--4::before {
+    background-image: url("./assets/stars_4.png");
+  }
+
+  &--3::before {
+    background-image: url("./assets/stars_3.png");
+  }
+
+  &--2::before {
+    background-image: url("./assets/stars_2.png");
+  }
+}

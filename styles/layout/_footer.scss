@@ -1,0 +1,77 @@
+.page-footer {
+  margin-top: 80px;
+  padding: 20px 0;
+
+  background: $gradient-main;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.contacts {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  .contacts__link {
+    display: inline-block;
+
+    padding: 6px 0;
+
+    color: $color-text;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.rs-school {
+  position: relative;
+
+  padding-left: 70px;
+
+  a {
+    color: $color-text;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &::after {
+      content: "";
+  
+      width: 24px;
+      height: 24px;
+  
+      position: absolute;
+      top: -1px;
+      left: 40px;
+  
+      background-color: transparent;
+      background-image: url("./assets/rs-school__icon.png");
+      background-size: 24px 24px;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.copyright {
+  max-width: 210px;
+
+  text-align: right;
+
+  a {
+    color: $color-text;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
