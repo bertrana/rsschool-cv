@@ -1,3 +1,18 @@
 .languages {
   width: 300px;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.languages__list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.languages__item {
+  margin: 15px 0;
 }

@@ -32,15 +32,87 @@ p {
   margin: 0;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .container {
-  width: 1160px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container__2-col {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.page-footer {
+  margin-top: 80px;
+  padding: 20px 0;
+  background: linear-gradient(180deg, #FFD08A 0%, #F8B07C 100%);
+}
+.page-footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts .contacts__link {
+  display: inline-block;
+  padding: 6px 0;
+  color: #262626;
+  text-decoration: none;
+}
+.contacts .contacts__link:hover {
+  text-decoration: underline;
+}
+
+.rs-school {
+  position: relative;
+  padding-left: 70px;
+}
+.rs-school a {
+  color: #262626;
+  text-decoration: none;
+}
+.rs-school a:hover {
+  text-decoration: underline;
+}
+.rs-school a::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: -1px;
+  left: 40px;
+  background-color: transparent;
+  background-image: url("./assets/rs-school__icon.png");
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+}
+
+.copyright {
+  max-width: 210px;
+  text-align: right;
+}
+.copyright a {
+  color: #262626;
+  text-decoration: none;
+}
+.copyright a:hover {
+  text-decoration: underline;
 }
 
 .page-header {
@@ -50,7 +122,7 @@ p {
 }
 .page-header .page-header__nav {
   margin: 0 auto;
-  width: 1160px;
+  width: 1200px;
 }
 
 .about {
@@ -62,8 +134,8 @@ p {
   position: relative;
   top: 0;
   right: 30px;
-  width: 550px;
-  height: 490px;
+  max-width: 550px;
+  max-height: 490px;
   object-fit: cover;
   border-radius: 100px;
 }
@@ -77,7 +149,7 @@ p {
 }
 
 .education {
-  max-width: 630px;
+  max-width: 615px;
 }
 .education h2 {
   margin-bottom: 30px;
@@ -103,11 +175,25 @@ p {
 }
 
 .education__info {
+  max-width: 500px;
   margin-top: 30px;
 }
 
 .languages {
   width: 300px;
+}
+.languages h2 {
+  margin-bottom: 30px;
+}
+
+.languages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.languages__item {
+  margin: 15px 0;
 }
 
 .nav .nav__list {
@@ -126,12 +212,53 @@ p {
   text-decoration: underline;
 }
 
+.skill {
+  position: relative;
+  padding-left: 160px;
+}
+.skill::before {
+  content: "";
+  width: 140px;
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  left: 10px;
+  background-color: transparent;
+  background-image: url("./assets/stars_5.png");
+  background-size: 140px 28px;
+  background-repeat: no-repeat;
+}
+.skill--4::before {
+  background-image: url("./assets/stars_4.png");
+}
+.skill--3::before {
+  background-image: url("./assets/stars_3.png");
+}
+.skill--2::before {
+  background-image: url("./assets/stars_2.png");
+}
+
 .skills {
   width: 300px;
+  margin-bottom: 100px;
+}
+.skills h2 {
+  margin-bottom: 30px;
+}
+
+.skills__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills__item {
+  margin: 15px 0;
 }
 
 .work {
-  max-width: 630px;
+  max-width: 650px;
+  margin-bottom: 100px;
 }
 .work h2 {
   margin-bottom: 30px;

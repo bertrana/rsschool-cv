@@ -1,5 +1,5 @@
 .education {
-  max-width: calc($content-width / 2 + 50px);
+  max-width: 615px;
 
   h2 {
     margin-bottom: 30px;
@@ -28,5 +28,7 @@
 }
 
 .education__info {
+  max-width: 500px;
+
   margin-top: 30px;
 }
