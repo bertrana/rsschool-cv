@@ -15,10 +15,10 @@
       <nav class="page-header__nav nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="">About</a>
+            <a href="#about">About</a>
           </li>
           <li class="nav__item">
-            <a href="">Skills</a>
+            <a href="#skills">Skills</a>
           </li>
           <li class="nav__item">
             <a href="">Contacts</a>
@@ -27,20 +27,17 @@
       </nav>
     </header>
     <main class="page-main">
-      
-    </main>
-    <footer class="page-footer">
-      <section class="about">
-        <div class="wrapper">
+      <section class="about" id="about">
+        <div class="container container__2-col">
           <img src="assets/foto.jpg" alt="My foto" class="about__foto" width="550" height="490">
           <div class="about__info">
-            <h1>Frontend developer</h1>
+            <h1>Frontend Developer</h1>
             <p class="about__name">Lobashevskaya Valentina</p>
             <p class="about__text">Hi! I&#8217m junior developer in search of first job or intership. I&#8217m interested in usability and mentoring. I will be glad to participate in code and design reviews.</p>
           </div>
         </div>
       </section>
-      <div class="wrapper">
+      <div class="container container__2-col">
         <section class="work">
           <h2>Work experience</h2>
           <div class="work__position">
@@ -48,19 +45,21 @@
               <span class="work__duration--from">10.2020</span>
               <span class="work__duration--to">10.2021</span>
             </div>
-            <b class="work__position-name">Technical support</b>
-            <p class="work__company">at ADV/web-ingeneering, Moscow</p>
-            <div class="work__info">
-              <p class="work__info-title">I performed services:</p>
-              <ol class="work__list">
-                <li>provided outstanding technical support to clients;</li>
-                <li>- updated content through CMS or on the server;</li>
-                <li>monitored infrastructure and set up alarms if necessary.</li>
-              </ol>
+            <div>
+              <h3 class="work__position-name">Technical support</h3>
+              <p class="work__company">at ADV/web-ingeneering, Moscow</p>
+              <div class="work__info">
+                <p class="work__info-title">I performed services:</p>
+                <ul class="work__list">
+                  <li>provided outstanding technical support to clients;</li>
+                  <li>updated content through CMS or on the server;</li>
+                  <li>monitored infrastructure and set up alarms if necessary.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
           <h2>Skills</h2>
           <ul class="skills__list">
             <li class="skills__item skill">
@@ -94,9 +93,7 @@
           </ul>
         </section>
       </div>
-      
-      <div class="wrapper">
-
+      <div class="container container__2-col">
         <section class="education">
           <h2>Education</h2>
           <ul class="education__list">
@@ -105,21 +102,47 @@
                 <span class="education__duration--from">09.2022</span>
                 <span class="education__duration--to">now</span>
               </div>
-              <p class="education__university">RS School, online</p>
-              <p class="education__info">I'm improving my frontend skills.</p>
+              <div>
+                <h3 class="education__university">RS School</h3>
+                <p>online</p>
+                <p class="education__info">I'm improving my frontend skills.</p>
+              </div>
             </li>
             <li class="education__item">
               <div class="education__duration">
                 <span class="education__duration--from">11.2018</span>
                 <span class="education__duration--to">02.2021</span>
               </div>
-              <p class="education__university">School 21, Moscow</p>
-              <p class="education__info">We studied the peer-to-peer methodology from Ecole 42. The training was practical: we were given a technical task, implemented the solution as best as we could and then we were checked by other students. I have created projects such as like rendering fractals, Dijkstra's algorithm and compiler for the game Corewar.</p>
+              <div>
+                <h3 class="education__university">School 21</h3>
+                <p>Moscow</p>
+                <p class="education__info">We studied the peer-to-peer methodology from Ecole 42. The training was practical: we were given a technical task, implemented the solution as best as we could and then we were checked by other students. I have created projects such as like rendering fractals, Dijkstra's algorithm and compiler for the game Corewar.</p>
+              </div>
             </li>
 
           </ul>
         </section>
+        <section class="languages">
+          <h2>Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item skill">
+              <span class="skill__level">5/5</span>
+              <p class="skill__name">Russian</p>
+            </li>
+            <li class="languages__item skill">
+              <span class="skill__level">3/5</span>
+              <p class="skill__name">English</p>
+            </li>
+            <li class="languages__item skill">
+              <span class="skill__level">2/5</span>
+              <p class="skill__name">Spanish</p>
+            </li>
+          </ul>
+        </section>
       </div>
+    </main>
+    <footer class="page-footer">
+
     </footer>
   </body>
 </html>

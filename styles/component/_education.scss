@@ -1,0 +1,32 @@
+.education {
+  max-width: calc($content-width / 2 + 50px);
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.education__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.education__item {
+  display: flex;
+
+  padding-bottom: 42px;
+}
+
+.education__duration {
+  max-width: 100px;
+
+  padding-right: 15px;
+
+  @include font-add($size: 24px);
+}
+
+.education__info {
+  margin-top: 30px;
+}
