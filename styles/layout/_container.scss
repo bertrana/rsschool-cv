@@ -1,0 +1,11 @@
+.container {
+  width: $content-width;
+
+  margin: 0 auto;
+}
+
+.container__2-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

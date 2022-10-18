@@ -1,0 +1,23 @@
+.work {
+  max-width: calc($content-width / 2 + 50px);
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.work__position {
+  display: flex;
+}
+
+.work__duration {
+  max-width: 100px;
+
+  padding-right: 15px;
+
+  @include font-add($size: 24px);
+}
+
+.work__info {
+  margin-top: 30px;
+}

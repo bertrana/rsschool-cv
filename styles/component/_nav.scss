@@ -1,0 +1,26 @@
+.nav {
+  .nav__list {
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+  }
+
+  .nav__item {
+    a {
+      display: block;
+
+      padding: 29px 30px;
+      
+      color: $color-text;
+      text-decoration: none;
+      // text-transform: uppercase;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
