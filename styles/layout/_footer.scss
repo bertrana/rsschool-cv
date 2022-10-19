@@ -1,5 +1,4 @@
 .page-footer {
-  margin-top: 80px;
   padding: 20px 0;
 
   background: $gradient-main;
@@ -21,12 +20,7 @@
 
     padding: 6px 0;
 
-    color: $color-text;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    @extend %link-style;
   }
 }
 
@@ -36,12 +30,7 @@
   padding-left: 70px;
 
   a {
-    color: $color-text;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    @extend %link-style;
 
     &::after {
       content: "";
@@ -67,11 +56,6 @@
   text-align: right;
 
   a {
-    color: $color-text;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    @extend %link-style;
   }
 }

@@ -14,13 +14,7 @@
 
       padding: 29px 30px;
       
-      color: $color-text;
-      text-decoration: none;
-      // text-transform: uppercase;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      @extend %link-style;
     }
   }
 }

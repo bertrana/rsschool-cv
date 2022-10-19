@@ -1,3 +1,11 @@
+.projects__name, .nav .nav__item a, .copyright a, .rs-school a, .contacts .contacts__link {
+  color: #262626;
+  text-decoration: none;
+}
+.projects__name:hover, .nav .nav__item a:hover, .copyright a:hover, .rs-school a:hover, .contacts .contacts__link:hover {
+  text-decoration: underline;
+}
+
 body {
   margin: 0;
   color: #262626;
@@ -5,6 +13,10 @@ body {
   font-size: 18px;
   line-height: 120%;
   background-color: #FFF6F3;
+}
+
+section {
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -16,6 +28,7 @@ h1 {
 
 h2 {
   margin: 0;
+  margin-bottom: 30px;
   font-size: 50px;
   font-weight: 400;
   line-height: 120%;
@@ -44,7 +57,8 @@ p {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 20px;
 }
 
@@ -55,7 +69,6 @@ p {
 }
 
 .page-footer {
-  margin-top: 80px;
   padding: 20px 0;
   background: linear-gradient(180deg, #FFD08A 0%, #F8B07C 100%);
 }
@@ -72,23 +85,11 @@ p {
 .contacts .contacts__link {
   display: inline-block;
   padding: 6px 0;
-  color: #262626;
-  text-decoration: none;
-}
-.contacts .contacts__link:hover {
-  text-decoration: underline;
 }
 
 .rs-school {
   position: relative;
   padding-left: 70px;
-}
-.rs-school a {
-  color: #262626;
-  text-decoration: none;
-}
-.rs-school a:hover {
-  text-decoration: underline;
 }
 .rs-school a::after {
   content: "";
@@ -107,14 +108,6 @@ p {
   max-width: 210px;
   text-align: right;
 }
-.copyright a {
-  color: #262626;
-  text-decoration: none;
-}
-.copyright a:hover {
-  text-decoration: underline;
-}
-
 .page-header {
   width: 100%;
   height: 80px;
@@ -151,9 +144,6 @@ p {
 .education {
   max-width: 615px;
 }
-.education h2 {
-  margin-bottom: 30px;
-}
 
 .education__list {
   margin: 0;
@@ -182,9 +172,6 @@ p {
 .languages {
   width: 300px;
 }
-.languages h2 {
-  margin-bottom: 30px;
-}
 
 .languages__list {
   margin: 0;
@@ -205,11 +192,6 @@ p {
 .nav .nav__item a {
   display: block;
   padding: 29px 30px;
-  color: #262626;
-  text-decoration: none;
-}
-.nav .nav__item a:hover {
-  text-decoration: underline;
 }
 
 .skill {
@@ -240,10 +222,6 @@ p {
 
 .skills {
   width: 300px;
-  margin-bottom: 100px;
-}
-.skills h2 {
-  margin-bottom: 30px;
 }
 
 .skills__list {
@@ -258,10 +236,6 @@ p {
 
 .work {
   max-width: 650px;
-  margin-bottom: 100px;
-}
-.work h2 {
-  margin-bottom: 30px;
 }
 
 .work__position {
@@ -278,6 +252,52 @@ p {
 
 .work__info {
   margin-top: 30px;
+}
+
+.code-examples__code {
+  display: block;
+  padding: 20px 35px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+
+.projects__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.projects__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.projects__name {
+  display: block;
+  box-sizing: border-box;
+  width: 240px;
+  max-height: 60px;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FFD08A 0%, #F8B07C 100%);
+  border: none;
+  border-radius: 10px;
+}
+.projects__name:hover {
+  text-decoration: none;
+  background: linear-gradient(180deg, #FFB74B 0%, #FF9446 100%);
+}
+
+.projects__description {
+  margin-top: 5px;
+  max-width: 600px;
 }
 
 /*# sourceMappingURL=style.css.map */

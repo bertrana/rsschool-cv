@@ -1,0 +1,8 @@
+%link-style {
+  color: $color-text;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

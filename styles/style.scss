@@ -1,5 +1,6 @@
 @import "abstract/constant";
 @import "abstract/mixins";
+@import "./abstract/placeholders";
 
 @import "base/base";
 @import "base/visually-hidden";
@@ -15,3 +16,5 @@
 @import "./component/skill";
 @import "./component/skills";
 @import "./component/work";
+@import "./component/code-examples";
+@import "./component/projects";
