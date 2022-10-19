@@ -150,6 +150,34 @@
           </ul>
         </section>
       </div>
+      <section class="projects container">
+        <h2>Projects</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <a class="projects__name" href="https://rolling-scopes-school.github.io/bertrana-JSFE2022Q3/online-zoo/">Online Zoo</a>
+            <p class="projects__description">This site includes two pages: main page with info about zoo and donate page, where you can choose an animal and price. All elements are interactive. Most interactivity done by CSS, but I do burger-menu, carousel and popup by using simple JavaScript. Adaptive design was done like desktop-first and has a breakpoint for 1600px, 1000px, 640px and 320px.<p>
+          </li>
+          <li class="projects__item">
+            <a class="projects__name" href="https://bertrana.github.io/rsschool-cv/">Resume</a>
+            <p class="projects__description">Landing without interactivity. I try to do a simple design, but maybe it's too minimal.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="code-examples container">
+        <h2>Code examples</h2>
+        <pre class="code-examples__code">
+Array.prototype.map = function (func, thisArg) {
+  let newArray = new Array();
+
+  for (let i = 0; i < this.length; i++) {
+    if (i in this)
+      newArray.push(func.call(thisArg, this[i], i, this));
+    else 
+      newArray.push(undefined);
+  }
+  return newArray;
+}</pre>
+      </section>
     </main>
     <footer class="page-footer">
       <div class="container">
